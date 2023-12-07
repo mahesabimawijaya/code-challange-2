@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useEffect } from "react";
+import Link from "next/link";
 
 export default function Navbar() {
   const changeBackground = () => {
@@ -43,7 +44,9 @@ export default function Navbar() {
           <div>Home</div>
           <div>About Us</div>
           <div>Product & Services</div>
-          <div>Teams</div>
+          <Link href={"/teams"}>
+            <div>Teams</div>
+          </Link>
         </div>
       </div>
     </div>
