@@ -41,11 +41,17 @@ export default function Navbar() {
           id="navbar-r"
           className="flex items-center text-white mr-10 space-x-12 text-sm font-semibold"
         >
-          <div>Home</div>
-          <div>About Us</div>
-          <div>Product & Services</div>
+          <Link href={"/"}>
+            <div className="hover:text-red-700">Home</div>
+          </Link>
+          <Link href={"/about"}>
+            <div className="hover:text-red-700">About Us</div>
+          </Link>
+          <Link href={"/product"}>
+            <div className="hover:text-red-700">Product & Services</div>
+          </Link>
           <Link href={"/teams"}>
-            <div>Teams</div>
+            <div className="hover:text-red-700">Teams</div>
           </Link>
         </div>
       </div>

@@ -1,11 +1,12 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
   return (
     <>
       <div
         id="footer-top"
-        className="w-full h-20 bg-[url('/footer-texture.avif')] mt-20 rounded-t-full border-t border-t-blue-900"
+        className="w-full h-20 bg-[url('/footer-texture.avif')] mt-20 rounded-t-full border-t border-t-blue-900 overflow-x-hidden"
       ></div>
       <div
         id="footer"
@@ -30,21 +31,39 @@ export default function Footer() {
                 <div className="font-semibold text-blue-950 mb-3">
                   Product & Services
                 </div>
-                <div className="flex-flex-col space-y-2 text-sm text-blue-900">
-                  <div>IT Service</div>
-                  <div>Financial Device</div>
-                  <div>Financial Service</div>
-                  <div>Cyber Security</div>
-                  <div>Digital Business</div>
-                  <div>Digital Product</div>
+                <div className="flex-flex-col text-sm text-blue-900">
+                  <Link href={"/product/it-service"}>
+                    <div className="mb-2">IT Service</div>
+                  </Link>
+                  <Link href={"/product/financial-devices"}>
+                    <div className="mb-2">Financial Device</div>
+                  </Link>
+                  <Link href={"/product/financial-platform"}>
+                    <div className="mb-2">Financial Service</div>
+                  </Link>
+                  <Link href={"/product/cybersecurity"}>
+                    <div className="mb-2">Cyber Security</div>
+                  </Link>
+                  <Link href={"/product/digital-platform"}>
+                    <div className="mb-2">Digital Business</div>
+                  </Link>
+                  <Link href={"/product/digital-development"}>
+                    <div>Digital Product</div>
+                  </Link>
                 </div>
               </div>
               <div className="flex flex-col">
                 <div className="font-semibold text-blue-950 mb-3">Company</div>
-                <div className="flex-flex-col space-y-2 text-sm text-blue-900">
-                  <div>About</div>
-                  <div>Product & Services</div>
-                  <div>Teams</div>
+                <div className="flex-flex-col text-sm text-blue-900">
+                  <Link href={"/about"}>
+                    <div className="mb-2">About</div>
+                  </Link>
+                  <Link href={"/product"}>
+                    <div className="mb-2">Product & Services</div>
+                  </Link>
+                  <Link href={"/teams"}>
+                    <div>Teams</div>
+                  </Link>
                 </div>
               </div>
               <div className="flex flex-col">

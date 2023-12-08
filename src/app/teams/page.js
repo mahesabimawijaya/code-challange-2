@@ -5,6 +5,7 @@ import Error from "@/components/Error";
 import Loading from "@/components/Loading";
 import Image from "next/image";
 import StaticNavbar from "@/components/StaticNavbar";
+import Footer from "@/components/Footer";
 
 export default function Teams() {
   const fetcher = (...args) => fetch(...args).then((res) => res.json());
@@ -38,7 +39,7 @@ export default function Teams() {
               <div
                 key={index}
                 id="user-container"
-                className="w-1/5 border border-blue-700 rounded-xl h-80 flex flex-col py-5 px-2 items-center mb-5 group hover:bg-blue-800 duration-300 cursor-help"
+                className="w-1/5 border rounded-t-full border-blue-700 h-80 flex flex-col py-8 px-2 items-center mb-5 group hover:bg-blue-800 duration-300 cursor-help"
               >
                 <div className="relative w-40 h-40 mb-4">
                   <Image
@@ -65,6 +66,7 @@ export default function Teams() {
           })}
         </div>
       </div>
+      <Footer />
     </>
   );
 }
