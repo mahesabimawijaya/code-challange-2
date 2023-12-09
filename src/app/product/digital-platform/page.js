@@ -13,7 +13,7 @@ export default function IT() {
           fill={true}
           alt="it-service"
         />
-        <div className="text-white absolute bottom-14 left-32 text-4xl font-semibold">
+        <div className="text-white absolute bottom-14 left-32 text-3xl lg:text-4xl font-semibold">
           Digital Business Platform
         </div>
       </div>
@@ -21,13 +21,13 @@ export default function IT() {
         <div className="text-3xl font-semibold mt-10">Our Solution</div>
         <div
           id="solution-list"
-          className="flex w-full mt-14 justify-center space-x-14"
+          className="flex flex-col space-y-10 lg:space-y-0 lg:flex-row w-full mt-14 justify-center lg:space-x-14"
         >
           <div
             id="solution-card"
-            className="w-1/4 h-auto pb-3 border flex flex-col items-center rounded-xl shadow-2xl"
+            className="lg:w-1/4 h-auto pb-3 border flex flex-col items-center rounded-xl shadow-2xl"
           >
-            <div className="font-semibold text-lg bg-blue-800 text-white w-full flex justify-center items-center rounded-t-xl h-10">
+            <div className="font-semibold xl:text-lg bg-blue-800 text-white w-full flex justify-center items-center rounded-t-xl h-10">
               Visitor Management System
             </div>
             <div className="relative w-24 h-24 mt-5">
@@ -41,7 +41,7 @@ export default function IT() {
           </div>
           <div
             id="solution-card"
-            className="w-1/4 h-72 border flex flex-col items-center rounded-xl shadow-2xl"
+            className="lg:w-1/4 h-72 border flex flex-col items-center rounded-xl shadow-2xl"
           >
             <div className="font-semibold text-lg bg-blue-800 text-white w-full flex justify-center items-center rounded-t-xl h-10">
               Modern Workspace
@@ -55,7 +55,7 @@ export default function IT() {
           </div>
           <div
             id="solution-card"
-            className="w-1/4 h-auto pb-3 border flex flex-col items-center rounded-xl shadow-2xl"
+            className="lg:w-1/4 h-auto pb-3 border flex flex-col items-center rounded-xl shadow-2xl"
           >
             <div className="font-semibold text-lg bg-blue-800 text-white w-full flex justify-center items-center rounded-t-xl h-10">
               Creative Cloud

@@ -13,7 +13,7 @@ export default function IT() {
           fill={true}
           alt="it-service"
         />
-        <div className="text-white absolute bottom-14 left-32 text-4xl font-semibold">
+        <div className="text-white absolute bottom-14 left-32 text-3xl lg:text-4xl font-semibold">
           Cybersecurity
         </div>
       </div>
@@ -21,11 +21,11 @@ export default function IT() {
         <div className="text-3xl font-semibold mt-10">Our Solution</div>
         <div
           id="solution-list"
-          className="flex w-full mt-14 justify-center space-x-14"
+          className="flex flex-col lg:flex-row w-full mt-14 justify-center lg:space-x-14 space-y-10 lg:space-y-0"
         >
           <div
             id="solution-card"
-            className="w-1/4 h-72 border flex flex-col items-center rounded-xl shadow-2xl"
+            className="lg:w-1/4 h-72 border flex flex-col items-center rounded-xl shadow-2xl"
           >
             <div className="font-semibold text-lg bg-blue-800 text-white w-full flex justify-center items-center rounded-t-xl h-10">
               Vulneralbility Assessment
@@ -44,7 +44,7 @@ export default function IT() {
           </div>
           <div
             id="solution-card"
-            className="w-1/4 h-72 border flex flex-col items-center rounded-xl shadow-2xl"
+            className="lg:w-1/4 h-72 border flex flex-col items-center rounded-xl shadow-2xl"
           >
             <div className="font-semibold text-lg bg-blue-800 text-white w-full flex justify-center items-center rounded-t-xl h-10">
               Penetration Testing
@@ -59,7 +59,7 @@ export default function IT() {
           </div>
           <div
             id="solution-card"
-            className="w-1/4 h-72 border flex flex-col items-center rounded-xl shadow-2xl"
+            className="lg:w-1/4 h-72 border flex flex-col items-center rounded-xl shadow-2xl"
           >
             <div className="font-semibold text-lg bg-blue-800 text-white w-full flex justify-center items-center rounded-t-xl h-10">
               ISO & Security Consulting
@@ -75,11 +75,11 @@ export default function IT() {
         </div>
         <div
           id="solution-list"
-          className="flex w-full mt-14 justify-center space-x-14"
+          className="flex flex-col lg:flex-row w-full mt-14 justify-center lg:space-x-14 space-y-10 lg:space-y-0"
         >
           <div
             id="solution-card"
-            className="w-1/4 h-72 border flex flex-col items-center rounded-xl shadow-2xl"
+            className="lg:w-1/4 h-72 border flex flex-col items-center rounded-xl shadow-2xl"
           >
             <div className="font-semibold text-lg bg-blue-800 text-white w-full flex justify-center items-center rounded-t-xl h-10">
               Performance Testing
@@ -94,7 +94,7 @@ export default function IT() {
           </div>
           <div
             id="solution-card"
-            className="w-1/4 h-72 border flex flex-col items-center rounded-xl shadow-2xl"
+            className="lg:w-1/4 h-72 border flex flex-col items-center rounded-xl shadow-2xl"
           >
             <div className="font-semibold text-lg bg-blue-800 text-white w-full flex justify-center items-center rounded-t-xl h-10">
               Digital Forensic
@@ -109,7 +109,7 @@ export default function IT() {
           </div>
           <div
             id="solution-card"
-            className="w-1/4 h-72 border flex flex-col items-center rounded-xl shadow-2xl"
+            className="lg:w-1/4 h-72 border flex flex-col items-center rounded-xl shadow-2xl"
           >
             <div className="font-semibold text-lg bg-blue-800 text-white w-full flex justify-center items-center rounded-t-xl h-10">
               Security Operation Center
