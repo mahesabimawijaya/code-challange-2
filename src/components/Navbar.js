@@ -29,12 +29,14 @@ export default function Navbar() {
     >
       <div id="navbar-left">
         <div className="relative w-28 h-5 md:w-40 md:h-7 lg:w-48 lg:h-9">
-          <Image
-            className="ml-5 md:ml-14"
-            src={"/asaba-innotech-logo.webp"}
-            fill={true}
-            alt="asaba-logo"
-          />
+          <Link href={"/"}>
+            <Image
+              className="ml-5 md:ml-14"
+              src={"/asaba-innotech-logo.webp"}
+              fill={true}
+              alt="asaba-logo"
+            />
+          </Link>
         </div>
       </div>
       <div id="navbar-right">

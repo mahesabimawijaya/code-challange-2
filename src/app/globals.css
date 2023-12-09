@@ -5,3 +5,7 @@
 body {
   padding-bottom: "1000px";
 }
+
+html {
+  scroll-behavior: smooth;
+}

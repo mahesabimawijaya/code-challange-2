@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Hero() {
   return (
     <>
@@ -20,7 +22,7 @@ export default function Hero() {
           you to achieve that with ease.
         </div>
         <button className="bg-white text-blue-700 text-sm py-2 px-3 md:py-2 md:px-4 lg:py-3 lg:px-5 xl:py-3 xl:px-6 font-semibold rounded-xl mt-10 hover:bg-blue-700 hover:text-white duration-200 mb-[30%] md:mb-[20%] lg:mb-[15%] xl:mb-[10%]">
-          Contact Us
+          <Link href={"/#contact"}>Contact Us</Link>
         </button>
         <div className="bg-white w-full h-[10%] rounded-t-full"></div>
       </div>

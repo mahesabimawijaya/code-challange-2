@@ -67,7 +67,10 @@ export default function Footer() {
                 </div>
               </div>
               <div className="flex flex-col">
-                <div className="font-semibold text-blue-950 md:ml-7 mb-3">
+                <div
+                  id="contact"
+                  className="font-semibold text-blue-950 md:ml-7 mb-3"
+                >
                   Get In Touch
                 </div>
                 <div className="flex-flex-col space-y-4 text-sm text-blue-900 mr-7 md:mr-0">

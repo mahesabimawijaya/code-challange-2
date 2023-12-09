@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Product() {
   return (
@@ -110,6 +111,11 @@ export default function Product() {
           </div>
         </div>
       </div>
+      <Link href={"/product"}>
+        <button className="py-2 px-4 text-sm bg-blue-900 text-white font-semibold md:py-2 md:px-4 lg:py-3 lg:px-5 md:text-base rounded-lg hover:opacity-80 active:opacity-60 duration-200 mt-16">
+          View More ➜
+        </button>
+      </Link>
     </div>
   );
 }
