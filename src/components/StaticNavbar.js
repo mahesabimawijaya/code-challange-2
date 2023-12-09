@@ -11,6 +11,7 @@ export default function StaticNavbar() {
             src={"/asaba-innotech-logo.webp"}
             width={180}
             height={20}
+            style={{ width: "auto", height: "auto" }}
             alt="asaba-logo"
           />
         </div>
