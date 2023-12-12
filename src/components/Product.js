@@ -13,7 +13,7 @@ export default function Product() {
       <div className="flex flex-col space-y-10 lg:space-y-0 items-center lg:flex lg:flex-row lg:space-x-10 w-full px-20 justify-center">
         <div
           id="home-product-card"
-          className=" flex flex-col w-72 md:w-80 lg:w-72 xl:1/4 h-72 group cursor-pointer shadow-2xl"
+          className=" flex flex-col w-72 md:w-80 lg:w-72 xl:w-1/4 h-72 group cursor-pointer shadow-2xl"
         >
           <div className="w-full h-5/6 relative grayscale group-hover:grayscale-0 duration-300">
             <Image

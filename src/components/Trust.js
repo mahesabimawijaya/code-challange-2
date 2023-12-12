@@ -20,7 +20,7 @@ export default function Trust() {
               alt="office"
             />
           </div>
-          <div className="text-justify text-sm mt-10 md:mt-0 lg:text-base w-4/6">
+          <div className="text-justify text-sm mt-10 md:mt-0 lg:text-base 2xl:text-xl w-4/6">
             PT. ASABA Digital Innotech berdiri pada tahun 1990 dengan misi
             menciptakan nilai bisnis bagi pelanggan melalui pemberian solusi
             atas kompleksnya masalah integrasi sistem yang dihadapi dalam era
